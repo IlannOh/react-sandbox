@@ -1,0 +1,35 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach Firefox",
+      "type": "firefox",
+      "request": "attach",
+      "url": "http://localhost:3001",
+      "enableCRAWorkaround": true,
+      "reloadOnAttach": false,
+      "webRoot": "${workspaceRoot}/src",
+      "reloadOnChange": {
+          "watch": [
+              "${workspaceFolder}/**/*.js"
+          ],
+          "ignore": [
+              "${workspaceFolder}/node_modules/**"
+          ]
+      },
+      "pathMappings": [
+          {
+              "url": "file:///Users/cemento/Dev/Client/src",
+              "path": "${workspaceFolder}/src"
+          },
+          {
+              "url": "file:///Users/cemento/Dev/Client/src",
+              "path": "${workspaceFolder}/src"
+          }
+      ]
+  },
+  ]
+}
