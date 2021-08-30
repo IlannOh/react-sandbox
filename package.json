@@ -11,7 +11,8 @@
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest",
-    "web-vitals": "latest"
+    "web-vitals": "latest",
+    "uuid": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
